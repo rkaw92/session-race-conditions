@@ -1,0 +1,31 @@
+{
+  "name": "session-race-conditions",
+  "version": "0.1.0",
+  "description": "a demonstration of race conditions that can occur in the default express session store implementations",
+  "main": "index.js",
+  "dependencies": {
+    "connect-redis": "^3.0.2",
+    "express": "^4.13.4",
+    "express-session": "^1.13.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rkaw92/session-race-conditions.git"
+  },
+  "keywords": [
+    "express",
+    "session",
+    "race",
+    "condition"
+  ],
+  "author": "Robert Kawecki <robert+npm@rkaw.pl>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rkaw92/session-race-conditions/issues"
+  },
+  "homepage": "https://github.com/rkaw92/session-race-conditions#readme"
+}
